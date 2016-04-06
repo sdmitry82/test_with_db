@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Arial, monospace;
+}
+div.container {
+    margin: 20px;
+}
+
+div.container .ul-list {
+    list-style: none;
+    padding: 0px;
+}
+
+div.container .ul-list li {
+    margin: 4px;
+    padding: 6px;
+    border: 1px dotted #999;
+}
+
+div.container .ul-list li p{
+    margin: 4px 0px;
+    
+}

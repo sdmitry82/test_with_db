@@ -30,3 +30,13 @@ INSERT INTO `table2` (`id`, `name`) VALUES
 -- Views
 CREATE VIEW v_tbl1 AS SELECT * FROM table1;
 CREATE VIEW v_tbl2 AS SELECT * FROM table2;
+
+
+-- Result table
+CREATE TABLE IF NOT EXISTS `labels_db` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `table` varchar(100) NOT NULL,
+  `field` varchar(100) NOT NULL,
+  `label` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

@@ -5,12 +5,12 @@ include_once './layoutClass.php';
 
 echo var_dump( $_POST );
 
+
 if ( isset( $_POST ) ){
 	
 	
-	
-	exit;
 }
+
 
 if (!isset( $_GET['tname'] )) {
 	$obj = new viewsFromDb;

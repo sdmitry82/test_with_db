@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Arial, monospace;
 }
+
 div.container {
     margin: 20px;
 }
@@ -18,5 +19,4 @@ div.container .ul-list li {
 
 div.container .ul-list li p{
     margin: 4px 0px;
-    
 }
